@@ -2,10 +2,10 @@
 ssh -T git@github.com
 while true; do
 	git pull
-	clear
 	cat comms.txt
 done
 while true; do
+	clear
 	read userInput 
 	echo $userInput >> comms.txt
 	git add comms.txt
