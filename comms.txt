@@ -1,9 +1,0 @@
-hello world
-hello mars
-hello jupiter
-hello solar system
-hello neptune
-hello saturn
-hello mercury
-
-clear

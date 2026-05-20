@@ -6,7 +6,7 @@ while true; do
 	cat comms.txt
 done
 while true; do
-	read -t 0.1 userInput 
+	read userInput 
 	echo $userInput >> comms.txt
 	git add comms.txt
 	git commit -m "message sent"
