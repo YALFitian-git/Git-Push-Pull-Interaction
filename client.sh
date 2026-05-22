@@ -15,7 +15,7 @@ while true; do
     if [ -n "$userInput" ]; then
     echo " " >> comms.txt
     git add comms.txt
-    git commit -m "$userInput" #&> /dev/null
-    git push #&> /dev/null
+    git commit -m "$userInput" &> /dev/null
+    git push &> /dev/null
 fi
 done
