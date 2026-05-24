@@ -13,9 +13,7 @@ done &
 while true; do
     read -t 2 userInput 
     if [ -n "$userInput" ]; then
-    echo " " >> comms.txt
-    git add comms.txt
-    git commit -m "$userInput" &> /dev/null
+    git commit --allow-empty -m "$userInput" &> /dev/null
     git push &> /dev/null
 fi
 done
